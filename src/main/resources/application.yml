@@ -5,6 +5,9 @@ management:
       enabled: true
     quartz:
       enabled: false
+    beans:
+      cache:
+        time-to-live: 1h
   endpoints:
     web:
       exposure:
