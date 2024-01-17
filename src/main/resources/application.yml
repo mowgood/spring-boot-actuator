@@ -13,3 +13,6 @@ management:
       exposure:
         include: "*"
         exclude: logger
+      cors:
+        allowed-origins: http://localhost:8080
+        allowed-methods: GET
