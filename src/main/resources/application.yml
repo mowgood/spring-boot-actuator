@@ -5,3 +5,8 @@ management:
       enabled: true
     quartz:
       enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: logger
