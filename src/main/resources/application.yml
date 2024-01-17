@@ -1,0 +1,7 @@
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    quartz:
+      enabled: false
